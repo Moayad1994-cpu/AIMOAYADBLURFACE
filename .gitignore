@@ -1,0 +1,15 @@
+# created by virtualenv automatically
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*build*/
+*dist*/
+*.egg-info/
+venv/
+.venv/
+env/
+instance/
+uploads/ # Usually don't commit user uploads
+*.sqlite
+*.db
