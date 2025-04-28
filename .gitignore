@@ -8,7 +8,7 @@ __pycache__/
 *.egg-info/
 venv/
 .venv/
-env/
+.env/
 instance/
 uploads/ # Usually don't commit user uploads
 *.sqlite
