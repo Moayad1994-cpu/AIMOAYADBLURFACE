@@ -1,10 +1,15 @@
-# .env
-
-# Flask specific settings
-FLASK_APP=app.py       # Tells 'flask run' command which file to use
-FLASK_DEBUG=True       # Set to True for development (auto-reload, debugger), False for production
-
-# Application specific settings
-SECRET_KEY='f1a8b9c3d0e7f6a2b8c4d1e0f7a3b9c5d2e1f8a4b0c6d3e2' # CRITICAL for session security
-UPLOAD_FOLDER='uploads' # Relative path name (app.py makes it absolute)
-MAX_CONTENT_LENGTH=104857600 # Example: 100MB upload limit
+# created by virtualenv automatically
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*build*/
+*dist*/
+*.egg-info/
+venv/
+.venv/
+env/
+instance/
+uploads/ # Usually don't commit user uploads
+*.sqlite
+*.db
